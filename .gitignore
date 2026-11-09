@@ -1,0 +1,20 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# If this file is later wrapped by a host app
+node_modules/
+dist/
+build/
+coverage/
+*.log
+*.tsbuildinfo
